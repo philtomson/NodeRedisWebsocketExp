@@ -1,1 +1,18 @@
 Experiment with websockets, node.js and redis.
+
+
+Dependencies:
+* node.js
+* redis 
+* node-redis: https://github.com/mranney/node_redis 
+  npm install socket.io 
+* Socket.IO-node https://github.com/LearnBoost/Socket.IO-node
+  npm install socket.io 
+
+To run:
+1) start the redis-server in a terminal window:
+   $ redis-server 
+2) run the server.js script with node.js in another terminal window:
+   $ node server.js
+3) open the chat.html file in your browser.
+   
